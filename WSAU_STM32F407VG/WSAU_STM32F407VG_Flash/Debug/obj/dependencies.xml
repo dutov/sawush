@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\WSAU_STM32F407VG\cmsis /I..\WSAU_STM32F407VG\cmsis_lib /I.. /I..\WSAU_STM32F407VG\cmsis_lib\include /I..\WSAU_STM32F407VG\cmsis_boot /I..\WSAU_STM32F407VG">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="13b2319c44d">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="13b231a05da">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="13b231a05da">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="13b2319c537">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="13b2319c518">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_sdio.c" lastModified="13b2319eddd">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="13b2319c43d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="13b23254d0f">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="13b2319c4ca">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="13b2319c48b">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h" lastModified="13b2319edce">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="13b2319c4ba">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\WSAU_STM32F407VG\FreeRTOS\Source\include /I..\WSAU_STM32F407VG\FreeRTOS\Source\portable /I..\WSAU_STM32F407VG\cmsis /I..\WSAU_STM32F407VG\cmsis_lib /I.. /I..\.. /I..\WSAU_STM32F407VG\FreeRTOS\Source\portable\ARM_CM4F /I..\WSAU_STM32F407VG\FreeRTOS\Source /I..\WSAU_STM32F407VG\cmsis_lib\include /I..\WSAU_STM32F407VG\cmsis_boot /I..\WSAU_STM32F407VG /I..\WSAU_STM32F407VG\FreeRTOS">
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="13b2319c44d">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\Source\portable\ARM_CM4F\port.c" lastModified="13aad1b00ba">
+         <include file="..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\Source\include\croutine.h" lastModified="13a6954d47c">
+         <include file="..\..\..\FreeRTOS\Source\include\list.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\Source\tasks.c" lastModified="13ab1ff0d43">
+         <include file="..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOS\Source\include\timers.h"/>
+         <include file="..\..\..\FreeRTOS\Source\include\StackMacros.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\misc.h" lastModified="13b231a05da">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\Source\croutine.c" lastModified="13a69545354">
+         <include file="..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOS\Source\include\croutine.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="13b231a05da">
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="13b2319c537">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\Source\portable\ARM_CM4F\portmacro.h" lastModified="13a914e2570">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h" lastModified="13b2319c518">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\Source\portable\MemMang\heap_2.c" lastModified="13a69552a3d">
+         <include file="..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\Source\include\list.h" lastModified="13a6954d670">
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="13b2319c8e1">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="13b2319c8d1">
+      </source>
+      <source file="..\..\..\FreeRTOS\Source\include\StackMacros.h" lastModified="13a6954dce8">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx.h" lastModified="13b2319c892">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f4xx.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f4xx_conf.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOSConfig.h" lastModified="13b235bbc9b">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f4xx_sdio.c" lastModified="13b2319eddd">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h" lastModified="13b2319c43d">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\Source\list.c" lastModified="13a6954e38f">
+         <include file="..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS\Source\include\list.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f4xx_conf.h" lastModified="13b23254d0f">
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h"/>
+         <include file="..\..\..\cmsis_lib\include\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="13b2319c8f0">
+      </source>
+      <source file="..\..\..\FreeRTOS\Source\include\projdefs.h" lastModified="13a6954d798">
+      </source>
+      <source file="..\..\..\FreeRTOS\Source\include\task.h" lastModified="13a8800fda2">
+         <include file="..\..\..\FreeRTOS\Source\include\portable.h"/>
+         <include file="..\..\..\FreeRTOS\Source\include\list.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\Source\include\queue.h" lastModified="13a6954dac5">
+         <include file="..\..\..\FreeRTOS\Source\include\mpu_wrappers.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\Source\include\FreeRTOS.h" lastModified="13aacaec3e4">
+         <include file="..\..\..\FreeRTOS\Source\include\projdefs.h"/>
+         <include file="..\..\..\FreeRTOSConfig.h"/>
+         <include file="..\..\..\FreeRTOS\Source\include\portable.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\Source\timers.c" lastModified="13ab702f78d">
+         <include file="..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOS\Source\include\queue.h"/>
+         <include file="..\..\..\FreeRTOS\Source\include\timers.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\Source\include\timers.h" lastModified="13ab702bae8">
+         <include file="..\..\..\FreeRTOS\Source\include\portable.h"/>
+         <include file="..\..\..\FreeRTOS\Source\include\list.h"/>
+         <include file="..\..\..\FreeRTOS\Source\include\task.h"/>
+      </source>
+      <source file="..\..\..\FreeRTOS\Source\include\mpu_wrappers.h" lastModified="13a6954d6ae">
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="13b2319c8c1">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.h" lastModified="13b2319c4ca">
+      </source>
+      <source file="..\..\..\FreeRTOS\Source\queue.c" lastModified="13a69554e21">
+         <include file="..\..\..\FreeRTOS\Source\include\FreeRTOS.h"/>
+         <include file="..\..\..\FreeRTOS\Source\include\task.h"/>
+         <include file="..\..\..\FreeRTOS\Source\include\croutine.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="13b2319c48b">
+      </source>
+      <source file="..\..\..\FreeRTOS\Source\include\portable.h" lastModified="13a6955a2a9">
+         <include file="..\..\..\FreeRTOS\Source\portable\ARM_CM4F\portmacro.h"/>
+         <include file="..\..\..\FreeRTOS\Source\portable\ARM_CM4F\portmacro.h"/>
+         <include file="..\..\..\FreeRTOS\Source\portable\ARM_CM4F\portmacro.h"/>
+         <include file="..\..\..\FreeRTOS\Source\portable\ARM_CM4F\portmacro.h"/>
+         <include file="..\..\..\FreeRTOS\Source\portable\ARM_CM4F\portmacro.h"/>
+         <include file="..\..\..\FreeRTOS\Source\portable\ARM_CM4F\portmacro.h"/>
+         <include file="..\..\..\FreeRTOS\Source\include\mpu_wrappers.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f4xx_sdio.h" lastModified="13b2319edce">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="13b2319c4ba">
+         <include file="..\..\..\cmsis_boot\stm32f4xx.h"/>
+      </source>
+   </includePath>
+</dependencies>

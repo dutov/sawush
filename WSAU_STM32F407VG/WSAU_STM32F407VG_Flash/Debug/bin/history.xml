@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.5.1 -mcpu=cortex-m4 -mthumb -Wl -nostartfiles -g -Map=WSAU_STM32F407VG_Flash.map -O0 --gc-sections -LC:\Program Files\CooCox\CoIDE\workspace\WSAU_STM32F407VG_Flash -TC:\Program Files\CooCox\CoIDE\workspace\WSAU_STM32F407VG_Flash/link.ld -g">
+      <target file="WSAU_STM32F407VG_Flash.elf" lastModified="13b2fa011e6">
+         <source file="..\obj\stm32f4xx_sdio.o" lastModified="13b23865e5d"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="13b23865f09"/>
+         <source file="..\obj\main.o" lastModified="13b2fa00ed9"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="13b23866245"/>
+         <source file="..\obj\timers.o" lastModified="13b238662e1"/>
+         <source file="..\obj\tasks.o" lastModified="13b23866542"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="13b238666aa"/>
+         <source file="..\obj\list.o" lastModified="13b23866794"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="13b238668bd"/>
+         <source file="..\obj\port.o" lastModified="13b23866998"/>
+         <source file="..\obj\queue.o" lastModified="13b23866b2e"/>
+         <source file="..\obj\croutine.o" lastModified="13b23866c47"/>
+         <source file="..\obj\misc.o" lastModified="13b23866d70"/>
+         <source file="..\obj\heap_2.o" lastModified="13b23866e6a"/>
+      </target>
+   </processor>
+</history>
